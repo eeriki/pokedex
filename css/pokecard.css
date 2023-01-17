@@ -1,0 +1,32 @@
+.pokecard {
+    width: 285px;
+    height: 315px;
+
+    background-color: #fff;
+    border-radius: 18px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.pokecard:hover{
+    background-color: #9acc77;
+}
+
+.foto-poke {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-poke {
+    position: relative;
+    top: 30px;
+    
+    justify-self: end;
+}
+
+.name-poke, .poke-types {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+.navegador {
+    width: 100vw;
+    height: 11%;
+
+    background-color: #6d6168;
+
+    display: flex;
+}
+
+.title {
+    border: 2px solid white;
+    width: 20%;
+    
+    text-align: center;
+}
+
+.title h1 {
+    position: relative;
+    top: 1.5%;
+    color: #d0dccb;
+}
+
+.navegador input{
+    height: 40%;
+}
